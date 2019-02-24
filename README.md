@@ -5,12 +5,12 @@ PHP Scripts fot TeamSpeak3
 
 Need PHP and Screen installed
 
-   1-> Give all files CHMOD 777 
-   2-> Set TeamSpeak3 Config in VPNGuard.php
+   1-> Give all files CHMOD 777 <br>
+   2-> Set TeamSpeak3 Config in VPNGuard.php<br>
    
-   /* Commands */
-   Bot Start => ./bot start
-   Bot Stop => ./bot 
+   /* Commands */<br>
+   Bot Start => ./bot start<br>
+   Bot Stop => ./bot <br>
    
 ///////////////////
 
