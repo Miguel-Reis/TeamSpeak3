@@ -1,28 +1,18 @@
 <?php
-/**
-  * ChannelBot for TeamSpeak
-  *
-  * Created by Gizi
-  *
-  * Website: GzPro.net
-  *
-  * Contact: gzpro.net@gmail.com
-  *
-  * I do not consent to distribute (You Can't Shere It!)
-**/
+
 
 //////////////// CONFIG ////////////////
-/*	Server IP				*/	$teamspeak['address'] = '';
+/*	Server IP				*/	$teamspeak['address'] = '127.0.0.1';
 /*	UDP Port				*/	$teamspeak['udp'] = '9987';
 /*	Query Port				*/	$teamspeak['tcp'] = '10011';
 /*	Query login				*/	$teamspeak['login'] = 'serveradmin';
-/*	Query pass				*/	$teamspeak['password'] = '';
+/*	Query pass				*/	$teamspeak['password'] = 'password';
 /*	Bot nickname			*/	$bot['name'] = 'VPN Guard';
 /*	Bot default channel		*/	$bot['default_channel'] = 1; 
 /*	Interval in sec			*/	$bot['interval'] = 1; 
-/*	Message to client		*/	$message = "Wyłącz VPN";
+/*	Message to client		*/	$message = "VPNGuard";
 /*	Poke to client			*/	$poke = "";
-/*	Kick message			*/	$kick_message = 'Wykryto Hakera';
+/*	Kick message			*/	$kick_message = 'VPN Not Allowed';
 /*	Allowed VPN Servergroup	*/	$vpn_allowed_servergroup = array(231);
 /*	Server ID				*/	$default = 1;
 /*	Log 1 for on			*/	$log = 1;
@@ -30,7 +20,7 @@
 //////////////// CONFIG END //////////////// 
 
 //////////////// FUNCTION ////////////////
-date_default_timezone_set('Europe/Warsaw');
+date_default_timezone_set('Europe/Lisbon');
 require_once 'lib/ts3admin.class.php';
 require_once 'lib/helper.php';
 
